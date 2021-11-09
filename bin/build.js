@@ -33,7 +33,7 @@ console.log(`Creating React app ${appName}`)
 runCommand(`npx create-react-app ${appName} --template typescript`)
 
 console.log('Enhancing gitignore')
-appendToFile('.gitignore', '\\n.idea')
+appendToFile(`${appName}/.gitignore`, '\\n.idea')
 
 console.log('Adding dependencies and jest config to package.json')
 enhanceModule(`${appName}/package.json`, packageJson => ({

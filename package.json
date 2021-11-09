@@ -1,7 +1,7 @@
 {
   "name": "@mgaw/create-react-app",
   "version": "0.1.0",
-  "bin": "bin/build.js",
+  "bin": "./bin/build.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
