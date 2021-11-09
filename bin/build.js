@@ -29,8 +29,8 @@ const appendToFile = (fileName, text) => {
   runCommand(`echo "${text}" >> ${path.resolve(fileName)}`)
 }
 
-// console.log(`Creating React app ${appName}`)
-// runCommand(`npx create-react-app ${appName} --template typescript`)
+console.log(`Creating React app ${appName}`)
+runCommand(`npx create-react-app ${appName} --template typescript`)
 
 console.log('Enhancing gitignore')
 appendToFile('.gitignore', '\\n.idea')
