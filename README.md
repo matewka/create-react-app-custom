@@ -8,7 +8,7 @@ You can run it with
 npx @mgaw/create-react-app my-app-name
 ```
 
-just like you were running `create-react-app`.
+just like you were running `create-react-app my-app-name --template=typescript`.
 
 ## Enhancements
 
