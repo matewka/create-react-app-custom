@@ -5,10 +5,10 @@ This project is a custom wrapper over [Create React App](https://github.com/face
 You can run it with
 
 ```shell
-npx @mgaw/create-react-app my-app-name
+npx @mgaw/custom-react-app your-app-name
 ```
 
-just like you were running `create-react-app my-app-name --template=typescript`.
+just like you used to run `create-react-app my-app-name --template=typescript`.
 
 ## Enhancements
 
@@ -20,3 +20,4 @@ What this wrapper does, it first installs CRA __with TypeScript__ and then does 
 * Adds `prettier` with a common config
 * Sets up `data-test` as default test attribute for `@testing-library/react`
 * Adds common setting stylelint
+* Commits all the changes to GIT
