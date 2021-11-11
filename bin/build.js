@@ -112,3 +112,7 @@ enhanceModule(`${appName}/tsconfig.json`, tsconfig => ({
     ]
   }
 }))
+
+console.log('Committing changes')
+runCommand('git add .')
+runCommand('git commit -m "Enhance project using @mgaw/custom-react-app"')
